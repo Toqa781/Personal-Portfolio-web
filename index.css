@@ -1,0 +1,129 @@
+.nav{
+   float: right;
+   right: 20px;
+   font-size: 14px;
+   position: relative;
+   margin-top: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mainlogo,.nav{
+    display: inline-block;
+}
+.mainlogo{
+    margin-left: 20px;
+    font-family: cursive 
+}
+
+.horizontal{
+    list-style-type: none;
+   
+}
+.horizontal li{
+    display: inline-block;
+    padding: 10px;
+}
+.Home{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2F2E41;
+}
+
+a{
+    text-decoration: none;
+    color: #2F2E41;
+    
+}
+.licorice-regular {
+    color: #f28585;
+    font-family: "Licorice", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  }
+  .content{
+    display: flex;
+    margin-left: 20px;
+  }
+  .main{
+    
+    flex: 1;
+  }
+  .mainPhoto{
+    margin-left: 20px;
+    padding-top: 20px;
+
+  }
+  .skills{
+    justify-content: center;
+    align-items: center;
+
+  }
+.skillHeader{
+    text-align: center;
+    padding-top: 70px;
+    color:#B7E5B4 ;
+}
+.skillPhoto{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    color: #2F2E41;
+    
+}
+.skillPhoto img{
+    padding:30px 150px ;
+}
+.textSkills{
+
+    
+    padding-top: 70px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.textSkills h3{
+    color: #f28585;
+}
+.textSkills div{
+    padding: 20px;
+}
+
+.ts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ts>*{
+    flex: 1;
+}
+a:visited{
+    color: #2F2E41;
+}
+footer{
+    background-color: #ffa447;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    padding-top:20px ;
+}
+.social-media a{
+    padding: 20px;
+}
+.copyright{
+    color:white;
+}
+#btnBackToTop{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    width:50px;
+    height: 50px;
+    border: none;
+    background-color: #ffa447;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+
